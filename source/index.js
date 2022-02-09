@@ -91,7 +91,7 @@ geometry.setAttribute( "position", position );
 /*  */
 let index;
 
-index = earcut( data, [ 4, 7 ], 3 ); console.log( index ); // 0~3号顶点是图形的轮廓，4~6号顶点是孔1的轮廓，7~9号顶点是孔2的轮廓
+index = earcut( data, [ 4, 7 ], 3 ); // 0~3号顶点是图形的轮廓，4~6号顶点是孔1的轮廓，7~9号顶点是孔2的轮廓
 index = new Uint16Array( index );
 index = new three.BufferAttribute( index, 1 );
 
