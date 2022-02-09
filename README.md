@@ -17,4 +17,4 @@ const data = [
 const index = earcut( data, [ 4, 7 ], 3 ); // // 0~3号顶点是图形的轮廓，4~6号顶点是孔1的轮廓，7~9号顶点是孔2的轮廓
 ```
 
-![0](./image-hosting/0.png)
+![0](./image-hosting/result.png)
