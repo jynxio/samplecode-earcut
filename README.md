@@ -29,7 +29,7 @@ npm install
 npm run start
 ```
 
-![./image-hosting/earcut-simplecode.png](earcut-simplecode.png)
+![](./image-hosting/earcut-simplecode.png)
 
 
 
@@ -54,7 +54,7 @@ earcut( vertices, null, 3 );
 
 最后，生成多边形：
 
-![./image-hosting/polygon-without-hole.png]()
+![](./image-hosting/polygon-without-hole.png)
 
 
 
@@ -84,7 +84,7 @@ earcut( vertices, [ 4 ], 3 );
 
 最后，生成多边形：
 
-![./image-hosting/polygon-with-a-hole.png]()
+![](./image-hosting/polygon-with-a-hole.png)
 
 
 
@@ -129,5 +129,5 @@ earcut( vertices, [ 4, 8, 12, 16 ], 3 );
 
 最后，生成多边形：
 
-![./image-hosting/polygon-with-four-hole.png]()
+![](./image-hosting/polygon-with-four-hole.png)
 
