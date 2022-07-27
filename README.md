@@ -1,6 +1,4 @@
-# earcut's  simple code
-
-## 概述
+# 概述
 
 [earcut](https://github.com/mapbox/earcut) 是一个三角剖分库，它基于一系列的坐标来进行剖分，它既可以剖分二维图形，也可以剖分维度更高的图形，earcut 剖分三维及更高维度的图形的原理是：将三维及更高维度的坐标投影至二维平面，然后基于二维的坐标来进行剖分。
 
@@ -15,9 +13,9 @@ earcut 不仅可以剖分普通的图形（即没有孔洞的图形），还可�
 - `linear ring` 是一个至少四个 `position` 的数组，且首尾的 `position` 必须相同。
 - `position` 是一个坐标数组，比如 `[ 103, 20 ]`。
 
+<br />
 
-
-## 测试
+# 测试
 
 依次执行下述命令，即可运行示例 demo ：
 
@@ -31,9 +29,9 @@ npm run start
 
 ![](./image-hosting/earcut-simplecode.png)
 
+<br />
 
-
-## 剖分没有孔洞的图形
+# 剖分没有孔洞的图形
 
 首先，假设图形的顶点数据为：
 
@@ -56,9 +54,9 @@ earcut( vertices, null, 3 );
 
 ![](./image-hosting/polygon-without-hole.png)
 
+<br />
 
-
-## 剖分只有一个孔洞的图形
+# 剖分只有一个孔洞的图形
 
 首先，假设图形的顶点数据为：
 
@@ -86,9 +84,9 @@ earcut( vertices, [ 4 ], 3 );
 
 ![](./image-hosting/polygon-with-a-hole.png)
 
+<br />
 
-
-## 剖分具有多个孔洞的图形
+# 剖分具有多个孔洞的图形
 
 首先，假设图形的顶点数据为：
 
@@ -131,3 +129,17 @@ earcut( vertices, [ 4, 8, 12, 16 ], 3 );
 
 ![](./image-hosting/polygon-with-four-hole.png)
 
+<br />
+
+# 运行
+
+依次执行下述命令，来运行这个项目：
+
+1. `npm install`
+2. `npm run start`
+
+<br />
+
+# 许可
+
+本项目遵循 [MIT](https://github.com/jynxio/simplecode-earcut/blob/main/license) 协议。
