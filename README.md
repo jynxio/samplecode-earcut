@@ -8,12 +8,13 @@
 
 ![example](./image-hosting/example.png)
 
-本项目使用 `three.js` 来可视化了 `earcut` 的剖分效果，你可以通过依次执行下述命令来启动一个开发服务器，并查看剖分的效果：
+本项目使用 `three.js` 来可视化了 `earcut` 的剖分效果，你可以通过依次执行下述命令来启动一个开发服务器，并查看到上述的剖分结果：
 
 1. `npm install`
 2. `npm run start`
 
-你可以在 `source/index.js` 中找到所有源代码。
+> 你可以在 `source/index.js` 中找到所有源代码。
+>
 
 <br />
 
@@ -95,3 +96,6 @@ earcut( positions_2, undefined, 3 ); // return []
 
 <br />
 
+## 许可
+
+本项目遵循 [MIT](https://github.com/jynxio/simplecode-earcut/blob/main/license) 协议。
